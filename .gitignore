@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+Automoble/
+.env
+.pytest_cache/
+.test-tmp*/
+data/raw/
+data/processed/
+data/downloads/
+data/generated/
+models/*.joblib

@@ -1,0 +1,32 @@
+datasets:
+  - id: recan
+    name: ReCAN
+    doi: 10.17632/76knkx3fzv.2
+    url: https://data.mendeley.com/datasets/76knkx3fzv/2
+    kind: raw_and_decoded_can
+    use: Parser, DBC mapping, timing, and signal-quality validation
+    note: Review the dataset terms and choose a vehicle-specific DBC before use.
+  - id: road
+    name: ROAD CAN Intrusion Dataset
+    doi: 10.5281/zenodo.10462796
+    url: https://zenodo.org/records/10462796
+    kind: raw_candump_and_translated_signals
+    use: CAN anomaly-detection benchmark; not a mechanical-failure dataset
+    approximate_size_mb: 557
+    note: Download is intentionally manual because the archive is large.
+  - id: scania_component_x
+    name: Scania Component X
+    doi: 10.5878/bnh5-ka77
+    url: https://researchdata.se/en/catalogue/dataset/2024-34
+    kind: truck_operational_and_repair_tables
+    use: Predictive-maintenance validation after adapting tabular features
+    approximate_size_mb: 1577
+    license: CC BY 4.0
+    note: Version 3 is real fleet data but not raw CAN traffic.
+  - id: q_motion
+    name: Q-Motion
+    doi: 10.17632/p5376m6xfc.1
+    url: https://data.mendeley.com/datasets/p5376m6xfc/1
+    kind: can_imu_gnss
+    use: Vehicle telemetry experiments including tire-pressure variation
+    note: Review terms and schema before importing.

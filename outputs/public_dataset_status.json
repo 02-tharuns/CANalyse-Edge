@@ -1,0 +1,26 @@
+{
+  "status": "sources_verified_download_pending",
+  "checked_on": "2026-08-15",
+  "results_are_not_claimed": true,
+  "sources": [
+    {
+      "id": "recan",
+      "role": "CAN parsing, DBC, timing, and quality validation",
+      "downloaded": false
+    },
+    {
+      "id": "road",
+      "role": "CAN traffic anomaly benchmark, not mechanical-failure prediction",
+      "downloaded": false,
+      "verified_archive_bytes": 556718276
+    },
+    {
+      "id": "scania_component_x",
+      "role": "real predictive-maintenance modelling, not raw CAN decoding",
+      "downloaded": false,
+      "publisher_size": "1.54 GiB",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "reason": "Large third-party datasets are kept outside Git and require an explicit download step."
+}

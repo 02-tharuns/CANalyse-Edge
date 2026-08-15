@@ -1,0 +1,81 @@
+{
+  "session": 9,
+  "frames": [
+    {
+      "arbitration_id": 256,
+      "frame_count": 1200,
+      "expected_dlc": 8,
+      "dlc_mismatches": 0,
+      "median_period_ms": 100.0,
+      "large_gaps": 0,
+      "out_of_order": 0,
+      "arbitration_id_hex": "0x100"
+    },
+    {
+      "arbitration_id": 257,
+      "frame_count": 1200,
+      "expected_dlc": 8,
+      "dlc_mismatches": 0,
+      "median_period_ms": 100.0,
+      "large_gaps": 0,
+      "out_of_order": 0,
+      "arbitration_id_hex": "0x101"
+    }
+  ],
+  "signals": {
+    "CommandedSpeed": {
+      "samples": 1200,
+      "minimum": 3016.5,
+      "maximum": 3539.75,
+      "stuck": 0
+    },
+    "CoolantTemperature": {
+      "samples": 1200,
+      "minimum": 66.0,
+      "maximum": 82.0,
+      "stuck": 0
+    },
+    "FlowRate": {
+      "samples": 1200,
+      "minimum": 43.3,
+      "maximum": 63.1,
+      "stuck": 0
+    },
+    "InletPressure": {
+      "samples": 1200,
+      "minimum": 1.86,
+      "maximum": 2.32,
+      "stuck": 0
+    },
+    "MotorCurrent": {
+      "samples": 1200,
+      "minimum": 31.9,
+      "maximum": 62.3,
+      "stuck": 0
+    },
+    "MotorSpeed": {
+      "samples": 1200,
+      "minimum": 2963.75,
+      "maximum": 3605.0,
+      "stuck": 0
+    },
+    "OutletPressure": {
+      "samples": 1200,
+      "minimum": 6.96,
+      "maximum": 9.21,
+      "stuck": 0
+    },
+    "SupplyVoltage": {
+      "samples": 1200,
+      "minimum": 20.07,
+      "maximum": 25.03,
+      "stuck": 0
+    },
+    "VibrationRms": {
+      "samples": 1200,
+      "minimum": 0.3,
+      "maximum": 1.6,
+      "stuck": 0
+    }
+  }
+}

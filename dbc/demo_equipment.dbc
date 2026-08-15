@@ -1,0 +1,25 @@
+VERSION "CANalyse Edge demo equipment 1.0"
+
+NS_ :
+    NS_DESC_
+    CM_
+    BA_DEF_
+    BA_
+    VAL_
+
+BS_:
+
+BU_: ECU
+
+BO_ 256 DriveUnitStatus: 8 ECU
+ SG_ MotorSpeed : 0|16@1+ (0.25,0) [0|16000] "rpm" Vector__XXX
+ SG_ MotorCurrent : 16|16@1+ (0.1,0) [0|1000] "A" Vector__XXX
+ SG_ CoolantTemperature : 32|8@1+ (1,-40) [-40|215] "degC" Vector__XXX
+ SG_ VibrationRms : 40|8@1+ (0.05,0) [0|12.75] "g" Vector__XXX
+ SG_ SupplyVoltage : 48|16@1+ (0.01,0) [0|655.35] "V" Vector__XXX
+
+BO_ 257 FluidStatus: 8 ECU
+ SG_ InletPressure : 0|16@1+ (0.01,0) [0|655.35] "bar" Vector__XXX
+ SG_ OutletPressure : 16|16@1+ (0.01,0) [0|655.35] "bar" Vector__XXX
+ SG_ FlowRate : 32|16@1+ (0.1,0) [0|6553.5] "L/min" Vector__XXX
+ SG_ CommandedSpeed : 48|16@1+ (0.25,0) [0|16000] "rpm" Vector__XXX

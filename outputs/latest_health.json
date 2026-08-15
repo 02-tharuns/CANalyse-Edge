@@ -1,0 +1,9 @@
+{
+  "component": "drive-unit-1",
+  "health_score": 10.8,
+  "condition": "undervoltage",
+  "confidence": 0.8477,
+  "anomaly_score": 0.8924,
+  "source": "synthetic_demo",
+  "disclaimer": "Demonstration output; not validated for safety decisions."
+}

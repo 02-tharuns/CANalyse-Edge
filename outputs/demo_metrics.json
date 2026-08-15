@@ -1,0 +1,78 @@
+{
+  "evaluation_scope": "synthetic held-out sessions; not a real-world performance claim",
+  "accuracy": 0.9018,
+  "balanced_accuracy": 0.8581,
+  "classification_report": {
+    "bearing_degradation": {
+      "precision": 1.0,
+      "recall": 0.725,
+      "f1-score": 0.8405797101449275,
+      "support": 40.0
+    },
+    "cooling_restriction": {
+      "precision": 0.9411764705882353,
+      "recall": 0.8,
+      "f1-score": 0.8648648648648649,
+      "support": 40.0
+    },
+    "healthy": {
+      "precision": 0.9080459770114943,
+      "recall": 0.9575757575757575,
+      "f1-score": 0.9321533923303835,
+      "support": 165.0
+    },
+    "undervoltage": {
+      "precision": 0.7916666666666666,
+      "recall": 0.95,
+      "f1-score": 0.8636363636363636,
+      "support": 40.0
+    },
+    "accuracy": 0.9017543859649123,
+    "macro avg": {
+      "precision": 0.910222278566599,
+      "recall": 0.8581439393939394,
+      "f1-score": 0.8753085827441349,
+      "support": 285.0
+    },
+    "weighted avg": {
+      "precision": 0.9092677603406759,
+      "recall": 0.9017543859649123,
+      "f1-score": 0.9002405167731914,
+      "support": 285.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      29,
+      0,
+      11,
+      0
+    ],
+    [
+      0,
+      32,
+      3,
+      5
+    ],
+    [
+      0,
+      2,
+      158,
+      5
+    ],
+    [
+      0,
+      0,
+      2,
+      38
+    ]
+  ],
+  "labels": [
+    "bearing_degradation",
+    "cooling_restriction",
+    "healthy",
+    "undervoltage"
+  ],
+  "train_windows": 570,
+  "test_windows": 285
+}

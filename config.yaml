@@ -1,0 +1,13 @@
+project: CANalyse Edge
+window:
+  samples: 50
+  step: 25
+quality:
+  maximum_gap_multiplier: 3.0
+model:
+  random_state: 42
+  estimators: 160
+diagnostics:
+  warning_health_score: 65
+  critical_health_score: 35
+

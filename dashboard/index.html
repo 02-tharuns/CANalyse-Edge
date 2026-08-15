@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CANalyse Edge</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main>
+    <header><div><span class="eyebrow">CAN → HEALTH INTELLIGENCE</span><h1>CANalyse Edge</h1></div><span id="service" class="badge">Connecting</span></header>
+    <section class="hero card">
+      <div><p>Asset</p><h2>Demo Pump Drive Unit</h2><span id="condition" class="condition">—</span></div>
+      <div class="score"><strong id="score">—</strong><span>Health score</span></div>
+    </section>
+    <section class="grid">
+      <article class="card"><p>Model confidence</p><strong id="confidence">—</strong></article>
+      <article class="card"><p>Anomaly score</p><strong id="anomaly">—</strong></article>
+      <article class="card"><p>Detected fault</p><strong id="fault">—</strong></article>
+    </section>
+    <section class="card"><div class="section-title"><h3>Diagnostic interface</h3><button id="refresh">Recompute demo</button></div><pre id="details">Loading…</pre></section>
+    <p class="notice">Synthetic demonstration only. SOVD-inspired API; not ASAM SOVD compliant and not for safety decisions.</p>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>
